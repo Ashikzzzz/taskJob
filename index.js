@@ -97,7 +97,7 @@ run().catch((err) => console.log(err));
 
 
 app.get("/", (req, res) => {
-    res.send("cloud kitchen");
+    res.send("I am Running");
   });
   
   app.listen(port, () => {
